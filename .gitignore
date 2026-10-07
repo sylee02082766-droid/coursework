@@ -1,0 +1,12 @@
+build/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.out
+*.actual
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

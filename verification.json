@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-10-07",
+  "files": [
+    {
+      "file": "data-structures/arrays/week03_array.c",
+      "sha256": "4f0a10c9d50eadddcf3c10b9cdb3bc7bd649b573f9aeec92542c8b59226c0ce2",
+      "historical_source_hash_matches": true,
+      "packaged_fixture_names": [
+        "test1",
+        "test2"
+      ],
+      "historical_case_count": 5
+    },
+    {
+      "file": "data-structures/linked-list/week04_list.c",
+      "sha256": "b60771a4214f8272f5d73cf5cd95556ebfab3bfa5edc9f584a8ff1ce059db497",
+      "historical_source_hash_matches": true,
+      "packaged_fixture_names": [
+        "test1",
+        "test2",
+        "empty",
+        "single_even",
+        "single_odd",
+        "int_limits",
+        "repeated_order"
+      ],
+      "historical_case_count": 8
+    },
+    {
+      "file": "data-structures/max-stack/week05_stack.c",
+      "sha256": "552d20d92f7f14f3f211a8517de501f86354926c193121bd5e9155c64e1eefbd",
+      "historical_source_hash_matches": true,
+      "packaged_fixture_names": [
+        "negative_values",
+        "repeated_maximum",
+        "restore_after_pop",
+        "empty_then_push"
+      ],
+      "historical_case_count": 5
+    }
+  ],
+  "method": "Static inspection and source SHA-256 match against existing local verification records. No new compilation or execution was performed during packaging."
+}
