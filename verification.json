@@ -47,5 +47,14 @@
     "finite_straight_and_circular_estimates": true,
     "exit_code": 0,
     "validation": "state-estimation/dme-kalman/VALIDATION.md"
+  },
+  "uam_ekf_pf_smoke": {
+    "file": "state-estimation/uam-ekf-pf/uam_tdoa_ekf_pf.m",
+    "sha256": "6b576c99172c38f20b4a9255555a09f86e4c5c28c74d8efa8646429ec12d4080",
+    "matlab": "R2024b",
+    "public_input": "Fabricated obstacles",
+    "finite_estimates": true,
+    "exit_code": 0,
+    "validation": "state-estimation/uam-ekf-pf/VALIDATION.md"
   }
 }

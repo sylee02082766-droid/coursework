@@ -8,5 +8,6 @@ These files are learning implementations prepared for coursework at Korea Aerosp
 | `week04_list.c` | Linked-list exercise; `node`, `insert`, and `print_even` follow the specified interfaces. The implementation preserves input order and frees the list. |
 | `week05_stack.c` | User-provided classroom implementation, cleaned for submission by removing an unused global pointer, removing trailing whitespace from `scanf` formats, and removing a redundant `get_max` call. The stack scaffold follows course material; cached maximum state follows the exercise requirement. |
 | `state-estimation/dme-kalman/HW2_DME_Kalman_clean.m` | Original user-authored DME LKF/EKF homework simulation, preserved unchanged. The exercise's unspecified DME noise is filled with an explicit illustrative 30 m assumption. |
+| `state-estimation/uam-ekf-pf/uam_tdoa_ekf_pf.m` | Original desktop implementation associated with the user's Probabilistic Sensor Engineering term-project report. Source is preserved unchanged; public inputs use fabricated obstacles instead of the original GIS records. |
 
 No lecture documents, starter-file copies, assignment problem text, provided sample test files, or third-party dependencies are distributed here. No open-source license has been selected for this collection.
