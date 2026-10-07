@@ -39,5 +39,13 @@
       "historical_case_count": 5
     }
   ],
-  "method": "Static inspection and source SHA-256 match against existing local verification records. No new compilation or execution was performed during packaging."
+  "method": "Static inspection and C-source SHA-256 match against existing local verification records. No new C compilation or execution was performed. MATLAB addition was smoke-executed separately; see matlab_smoke and its local VALIDATION.md.",
+  "matlab_smoke": {
+    "file": "state-estimation/dme-kalman/HW2_DME_Kalman_clean.m",
+    "sha256": "48ed7fdb42b360e7a6a569cff789379e351f506fc09aa31ce99181f76e194fbd",
+    "matlab": "R2024b",
+    "finite_straight_and_circular_estimates": true,
+    "exit_code": 0,
+    "validation": "state-estimation/dme-kalman/VALIDATION.md"
+  }
 }
